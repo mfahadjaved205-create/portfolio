@@ -1,0 +1,116 @@
+*
+{padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;}
+body
+{background-color: bisque;}
+img
+{margin-left: 740px;
+ margin-top: 60px;}
+.container
+{display: flex;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 0;}
+ul
+{display: flex;
+margin-left: 50px;
+margin-top: 0;}
+ul li
+{list-style-type: none;
+padding: 20px;}
+ul li a
+{text-decoration: none;
+color:slategray;
+font-size: 24px;}
+ul li a:hover
+{color: white;}
+h2
+{margin-top: 17px;
+margin-left: 60px;
+font-size: 30px;}
+h2::first-letter
+{color: blue;}
+button
+{margin-left: 450px;
+width: 110px;
+height: 30px;
+margin-top: 20px;
+border-radius: 8px;
+border: none;
+background-color: blue;
+color: white;
+text-align: center;}
+.content
+{display: flex;
+flex-direction: column;
+margin-top: -350px;
+width: 480px;
+border: none;
+height: 400px;
+margin-left: 80px;}
+.head
+{margin-top: 10px;}
+.name
+{margin-top: -37px;
+margin-left: 105px;
+color: blue;}
+.front
+{margin-top: 20px;
+color: black;}
+.lorem
+{margin-top: 20px;
+width: 370px;}
+.btn
+{position: absolute;
+left: -370px;
+top: 380px;
+border: none;
+border-radius: 8px;
+width: 90px;}
+.button
+{position: absolute;
+left: -230px;
+top: 380px;
+border: none;
+border-radius: 8px;
+background-color: slategray;
+width: 110px;}
+.icon
+{position: relative;
+top: -70px;
+left: 60px;}
+i
+{padding: 20px;
+color: purple;
+font-size: 30px;}
+@media screen and (max-width: 600px){
+     img {margin-left: 130px;
+          margin-top: 500px;}
+     .container {display: block;}
+      h2 {margin-left: 270px;
+          margin-top: 10px;}
+      ul{display: block;
+         margin-left: 250px;
+         margin-top: 20px;}         
+      ul li {padding: 20px;}
+      .fah {margin-left: 270px;
+              margin-top:  20px;}
+       .content {display: block;
+                margin-top: 60px;
+                margin-left: 50px;}         
+        .front {margin-left: 200px;}
+        .lorem {margin-left: 100px;}               
+
+       .btn {margin-left: 550px;
+             margin-top: 900px;}
+       .button {margin-top: 900px;
+                margin-left: 600px;}     
+              
+     .icon {margin-top: -50px;
+            margin-left: 170px;}
+      i {padding: 30px;}      
+}
+
+
